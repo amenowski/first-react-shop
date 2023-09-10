@@ -1,0 +1,40 @@
+.nav {
+  border: 1px solid rgba(0, 0, 0, 0.089);
+
+  &__wrapper {
+    min-height: 9.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-size: 3.2rem;
+    color: var(--nav-heading);
+  }
+  &__icon {
+    width: 4.2rem;
+    height: 4.2rem;
+    cursor: pointer;
+    &:hover {
+      color: #e93a7d;
+    }
+  }
+  &__categories {
+    display: flex;
+    gap: 1rem;
+  }
+  &__categories button {
+    padding: 1rem 1.6rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: 2px solid #ebeaed;
+    background-color: #fff;
+    border-radius: 2rem;
+
+    &:hover {
+      background-color: #e93a7d;
+      color: #fff;
+      border: 2px solid #e93a7d;
+    }
+  }
+}

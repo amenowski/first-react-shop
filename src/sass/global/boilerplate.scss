@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body,
+::after,
+::after {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+html {
+  font-size: 62.5%;
+
+  --nav-heading: #1e0e62;
+}
+.app {
+  min-width: 100%;
+  min-height: 100vh;
+}
+.container {
+  width: min(100% - 12.6rem, 144rem);
+  margin-inline: auto;
+}
